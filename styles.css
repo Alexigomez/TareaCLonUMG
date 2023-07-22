@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(Imagenes/fondo.jpg);
+    background-size: 100%;
+}
+
+header{
+    background-color: #0d4266;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+header img{
+    max-width: 100px;
+    margin-right: 7px;
+}
+
+.ico{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.icono{
+    width: 30px;
+    height: 30px;
+    margin-left: 1;
+}
+
+.Miumg{
+    margin-right: 130px;  
+    height: 22px; 
+    width: 130;
+}
+
+span{
+    display: inline-block;
+    width: 1px;
+    height: 30px; 
+    background-color: #74baa0;
+    margin-right: 7px;
+}
+
+
+
+.container-1{
+    background-color: #1770a6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+}
+.logo{
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    padding: 10px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.logo2{
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    padding: 10px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 140px;
+}
+
+.con-item{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    flex-basis: calc(25% - 10px);
+}
+
+
+
+.container-2{
+    background-color: #147aae;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    position: relative;
+    z-index: -1;
+}
+    
+.logo-ms{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    z-index: 9999;
+}
+
+.logo-fra{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 658px;
+    height: 165px;
+    z-index: 9999;
+}
+
+cite{
+    background-image: url(Imagenes/versebg.png);
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    display: block;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%);
+    z-index: 2;
+    font-size: 15px;
+    padding: 13px;
+    top: 35%;
+    width: 35%;
+}
